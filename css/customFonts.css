@@ -1,0 +1,249 @@
+@font-face{
+    font-family:'BreeRegular';
+    src:url('fonts//breeregular-webfont.eot');
+    src:url('fonts/breeregular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/breeregular-webfont.woff') format('woff'),
+        url('fonts/breeregular-webfont.ttf') format('truetype'),
+        url('fonts/breeregular-webfont.svg#BreeRegular') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'BreeThin';
+    src:url('fonts/breethin-webfont.eot');
+    src:url('fonts/breethin-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/breethin-webfont.woff') format('woff'),
+        url('fonts//breethin-webfont.ttf') format('truetype'),
+        url('fonts//breethin-webfont.svg#BreeThin') format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face {
+    font-family: 'Old English';
+    src: url('fonts/ChardinDoihle/old_English.eot');
+    src: url('fonts/ChardinDoihle/chardin_doihleregular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ChardinDoihle/chardin_doihleregular.woff') format('woff'),
+         url('fonts/ChardinDoihle/chardin_doihleregular.ttf') format('truetype'),
+         url('fonts/ChardinDoihle/chardin_doihleregular.svg#chardin_doihleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cloister_blacklight';
+    src: url('fonts/cloister_blacklight.eot');
+    src: url('fonts/cloister_blacklight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cloister_blacklight.woff') format('woff'),
+         url('fonts/cloister_blacklight.ttf') format('truetype'),
+         url('fonts/cloister_blacklight.svg#cloister_blacklight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cloister_open_face';
+    src: url('fonts/cloister_open_face.eot');
+    src: url('fonts/cloister_open_face.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cloister_open_face.woff') format('woff'),
+         url('fonts/cloister_open_face.ttf') format('truetype'),
+         url('fonts/cloister_open_face.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Copperplate Bold';
+    src: url('fonts/copperplatetbolcon.eot');
+    src: url('fonts/copperplatetbolcon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/copperplatetbolcon.woff') format('woff'),
+         url('fonts/copperplatetbolcon.ttf') format('truetype'),
+         url('fonts/copperplatetbolcon.svg#copperplatetbolconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'copperplate_condensed';
+    src: url('fonts/copperplate_condensed.eot');
+    src: url('fonts/copperplate_condensed.eot?#iefix') format('embedded-opentype'),
+         url('fonts/copperplate_condensed.woff') format('woff'),
+         url('fonts/copperplate_condensed.ttf') format('truetype'),
+         url('fonts/copperplate_condensed.svg#copperplate_condensed_ssiCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fraktur';
+    src: url('fonts/fraktur.eot');
+    src: url('fonts/fraktur.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fraktur.woff') format('woff'),
+         url('fonts/fraktur.ttf') format('truetype'),
+         url('fonts/fraktur.svg#theuerdank_frakturregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'old-english';
+    src: url('fonts/old-englishnormal.eot');
+    src: url('fonts/old-englishnormal.eot?#iefix') format('embedded-opentype'),
+         url('fonts/old-englishnormal.woff') format('woff'),
+         url('fonts/old-englishnormal.ttf') format('truetype'),
+         url('fonts/old-englishnormal.svg#old-english') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vineta';
+    src: url('fonts/vineta.eot');
+    src: url('fonts/vineta.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vineta.woff') format('woff'),
+         url('fonts/vineta.ttf') format('truetype'),
+         url('fonts/vineta.svg#vineta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'all_used_up';
+    src: url('fonts/all_used_up.eot');
+    src: url('fonts/all_used_up.eot?#iefix') format('embedded-opentype'),
+         url('fonts/all_used_up.woff') format('woff'),
+         url('fonts/all_used_up.ttf') format('truetype'),
+         url('fonts/all_used_up.svg#all_used_up') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ambulance_shotgun';
+    src: url('fonts/ambulance_shotgun.eot');
+    src: url('fonts/ambulance_shotgun.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ambulance_shotgun.woff') format('woff'),
+         url('fonts/ambulance_shotgun.ttf') format('truetype'),
+         url('fonts/ambulance_shotgun.svg#ambulance_shotgun') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'anthology';
+    src: url('fonts/anthology.eot');
+    src: url('fonts/anthology.eot?#iefix') format('embedded-opentype'),
+         url('fonts/anthology.woff') format('woff'),
+         url('fonts/anthology.ttf') format('truetype'),
+         url('fonts/anthology.svg#anthology') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'astonished';
+    src: url('fonts/astonished.eot');
+    src: url('fonts/astonished.eot?#iefix') format('embedded-opentype'),
+         url('fonts/astonished.woff') format('woff'),
+         url('fonts/astonished.ttf') format('truetype'),
+         url('fonts/astonished.svg#astonished') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'birth_of_a_hero';
+    src: url('fonts/birth_of_a_hero.eot');
+    src: url('fonts/birth_of_a_hero.eot?#iefix') format('embedded-opentype'),
+         url('fonts/birth_of_a_hero.woff') format('woff'),
+         url('fonts/birth_of_a_hero.ttf') format('truetype'),
+         url('fonts/birth_of_a_hero.svg#birth_of_a_hero') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brand_new_burn';
+    src: url('fonts/brand_new_burn.eot');
+    src: url('fonts/brand_new_burn.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brand_new_burn.woff') format('woff'),
+         url('fonts/brand_new_burn.ttf') format('truetype'),
+         url('fonts/brand_new_burn.svg#brand_new_burnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'broken_15';
+    src: url('fonts/broken_15.eot');
+    src: url('fonts/broken_15.eot?#iefix') format('embedded-opentype'),
+         url('fonts/broken_15.woff') format('woff'),
+         url('fonts/broken_15.ttf') format('truetype'),
+         url('fonts/broken_15.svg#broken_15') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'broken_ghost';
+    src: url('fonts/broken_ghost.eot');
+    src: url('fonts/broken_ghost.eot?#iefix') format('embedded-opentype'),
+         url('fonts/broken_ghost.woff') format('woff'),
+         url('fonts/broken_ghost.ttf') format('truetype'),
+         url('fonts/broken_ghost.svg#broken_ghost') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chic_decay';
+    src: url('fonts/chic_decay.eot');
+    src: url('fonts/chic_decay.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chic_decay.woff') format('woff'),
+         url('fonts/chic_decay.ttf') format('truetype'),
+         url('fonts/chic_decay.svg#chic_decay') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'diesel';
+    src: url('fonts/diesel.eot');
+    src: url('fonts/diesel.eot?#iefix') format('embedded-opentype'),
+         url('fonts/diesel.woff') format('woff'),
+         url('fonts/diesel.ttf') format('truetype'),
+         url('fonts/diesel.svg#diesel') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dirty_ego';
+    src: url('fonts/dirty_ego.eot');
+    src: url('fonts/dirty_ego.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dirty_ego.woff') format('woff'),
+         url('fonts/dirty_ego.ttf') format('truetype'),
+         url('fonts/dirty_ego.svg#dirty_ego') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

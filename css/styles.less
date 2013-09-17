@@ -1,0 +1,171 @@
+@baseBgColor: #E8E5E1;
+@borderColor: #FFCC00;
+@fontColor: #D7AE3F;
+@placeHolderColor: #808080 ;
+@genericHeaderFont: copperplate_condensed;
+@genericFontSize: 1em;
+
+.borderDraw (@thick: 1em, @type: solid, @color: #000) {
+	border: @thick @type @color;
+}
+
+#header {
+	background-color: @baseBgColor - #0C2857;
+}
+
+h2 {
+	color: @baseBgColor;
+}
+
+.searchForm {
+	border: 1px solid @borderColor;
+	padding-top: 5px;
+}
+
+.autocomplete-suggestions { 
+	border: 1px solid @borderColor - #663267; 
+	background: @baseBgColor + #171A1E; 
+	cursor: default; 
+	overflow: auto; 
+	-webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+	-moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+	box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); 
+}
+
+.autocomplete-suggestion { 
+	padding: 2px 5px; 
+	white-space: nowrap; 
+	overflow: hidden; 
+}
+
+.autocomplete-selected { 
+	background: @baseBgColor + #080B0F; 
+}
+
+.autocomplete-suggestions strong 
+{ 
+	font-weight: bold; 
+	color: @fontColor; 
+}
+
+#filterStatus option { 
+	color: green; 
+	font-weight: bold;
+}
+
+.empty { 
+	color: @placeHolderColor; 
+}
+
+input::-webkit-input-placeholder {
+  color: @placeHolderColor;
+}
+
+input:-moz-placeholder {
+  color: @placeHolderColor;
+}
+
+input::-moz-placeholder {
+  color: @placeHolderColor;
+}
+
+input:-ms-input-placeholder { /* IE10+ */
+  color: @placeHolderColor;
+}
+
+.detailHeader {
+	background-color: @baseBgColor - #004DFE;
+	font-family: @genericHeaderFont;
+	font-size: @genericFontSize + .2;
+	color: @baseBgColor + #171A1E;
+	vertical-align: middle;
+}
+
+.menuCategory {
+	color:@fontColor;
+
+	li {
+		list-style: none;
+		cursor: pointer;
+
+		ul {
+			display: none;
+		}
+	}	
+}
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	
+	a {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #AAAADD;
+		text-decoration: none; /* no underline */
+		color: #ED8140;
+		
+		&:hover, &:active {
+			border: 1px solid #ED8140;
+			color: #000;
+		}
+	}
+
+	span {
+		.current {
+			padding: 2px 5px 2px 5px;
+			margin: 2px;
+			border: 1px solid #ED8140;
+			font-weight: bold;
+			background-color: #ED8140;
+			color: #FFF;
+		}
+		
+		.disabled {
+			padding: 2px 5px 2px 5px;
+			margin: 2px;
+			border: 1px solid #EEE;
+			color: #DDD;
+		}
+	}
+}	
+
+.login {
+	font-family: @genericHeaderFont;
+	font-size: @genericFontSize + .3;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.loginDetail {
+	font-size: @genericFontSize + .1;
+	font-family: "Verdana, Arial, Helvetica, sans-serif";
+}
+
+.errorMessage {
+	font-size: @genericFontSize + .2;
+	color: @fontColor - #07F6EA;
+	font-family: courior;
+	text-align: center;
+}
+
+.successMessage {
+	font-size: @genericFontSize + .2;
+	color: @fontColor - #FFFFFF;
+	font-family: courior;
+	text-align: center;
+}
+
+.menuCat{
+	font-family: @genericHeaderFont;
+	font-size: @genericFontSize + .2;
+}
+
+.tableBorderOrange {
+	.borderDraw(0.2em, solid, @borderColor - #003300);
+}
+
+.contactDetail {
+	font-family: @genericHeaderFont;
+	font-size: @genericFontSize + .2;
+}
